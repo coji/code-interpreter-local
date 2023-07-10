@@ -1,0 +1,29 @@
+{
+  "name": "ci-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx run.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0",
+    "prompts": "^2.4.2",
+    "tsx": "^3.12.7",
+    "zx": "^7.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "@types/prompts": "^2.4.4"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
